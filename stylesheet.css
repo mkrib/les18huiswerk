@@ -1,0 +1,107 @@
+@font-face {
+src: url(Antonio-VariableFont_wght.ttf);
+font-family: antonio;
+}
+
+.header {
+background-color: #B26518;
+background-image: url(amsterdam-medium.jpg);
+background-size: cover;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 20%;
+}
+
+h1 {
+  font-family: antonio;
+  font-size: 50px;
+  color: white;
+}
+
+ul {
+  list-style: circle;
+  font-family: arial;
+  font-size: 12px;
+  line-height: 18px;
+  color: #5B350F;
+}
+
+h2 {
+  color: #B75B00;
+  font-family: antonio;
+}
+
+.col-9 {
+  background-color: #FDCC9B;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.attractie1 {
+  font-family: arial;
+  font-size: 12px;
+  line-height: 18px;
+  color: #5B350F;
+}
+
+.attractie2 {
+  font-family: arial;
+  font-size: 12px;
+  line-height: 18px;
+  color: #5B350F;
+}
+
+img {
+  width: 200px;
+  height: 120px;
+  float: right;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer {
+  background-color: #B26518;
+  padding-left: 5%;
+}
+
+h6 {
+  font-family: antonio;
+  font-size: 14px;
+  color: white;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+[class*="col-"] {
+float: left;
+padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+h1 {
+  font-size: 80px;
+}
+
+img {
+  width: 250px;
+  height: 150px;
+}
+
+.footer {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
